@@ -199,7 +199,8 @@ function App() {
             Seguridad (ISTQB CT-SEC): autenticación, autorización, sesión, validación de entrada, cifrado, logging, errores, pruebas negativas y de abuso.
             Rendimiento (ISTQB CT-PT): carga, estrés, pico/spike, resistencia, escalabilidad, con métricas y SLAs claros.
             No funcionales (ISTQB CTFL/CTAL-TA): usabilidad, compatibilidad, confiabilidad, accesibilidad, mantenibilidad.
-             Estructurales (CTFL/CTAL-TTA): cobertura por sentencias, ramas, condiciones, MC/DC. En la columna de escenario debes indicar que tipo de tecnica de ISTQB aplicaste`;
+             Estructurales (CTFL/CTAL-TTA): cobertura por sentencias, ramas, condiciones, MC/DC. En la columna de escenario debes indicar que tipo de tecnica de ISTQB aplicaste
+             La respuesta completa a menos de que sean terminos tecnicos debe estar en español, los terminos tecnicos pueden estar en ingles, las tecnicas de ISTQB si deben estar en español, recuerda que debes añadirla en la columna feature.`;
 
             let chatHistoryFirstCall = [];
             chatHistoryFirstCall.push({ role: "user", parts: [{ text: firstPrompt }] });
